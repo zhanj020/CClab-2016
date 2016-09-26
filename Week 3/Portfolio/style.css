@@ -1,0 +1,236 @@
+p{
+	color: grey;
+	font-size: 25px;
+}
+
+body{
+	font-family: 'Ubuntu Condensed', sans-serif;
+	margin-top: 0px;
+
+}
+
+/*header*/
+a{
+	text-decoration: none;
+	color:grey;
+}
+
+#logo{
+	position:relative;
+	bottom:20px;
+	right:8px;
+}
+
+
+#brief{
+	position: absolute;
+	top:90px;
+	left: 140px;
+    font-size: 20px;
+    opacity: 80%;   
+}
+
+
+/*navigation*/
+ul{
+	list-style: none;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-bottom: 0px;
+	margin-top:0px;
+	text-align: center;
+	color:grey;
+	text-decoration: none;	
+}
+
+
+
+
+div.navposition {
+    position: fixed;
+    top: 80px;
+    right: 50px;
+    font-color:grey;
+    font-size: 25px;
+    text-align: right;
+
+}
+
+
+div.scalenav:{
+	margin: 3px
+	color:grey;
+	text-decoration: none;
+}
+
+div.scalenav:hover{
+	color: grey;
+	text-align: center;
+	transform:scale(1.2);
+	transform-style: ease;
+	transition-duration: 1s;
+}
+
+
+/*body*/
+#lightartposition{
+	position:relative;
+}
+
+
+.projectinfo{
+	padding-left:110px;
+	color:grey;
+}
+
+/*.projectList {
+	padding-left:0px;
+	max-width: 80%;
+}
+*/
+.projectThumb img{
+	padding-left:70px;
+	max-width: 100%;
+	width: 100%;
+}
+
+
+.projectThumb {
+	padding-left:0px;
+	max-width: 80%;
+    position: relative;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.projectThumb__info {
+    position: absolute;
+    max-width: 92.5%;
+    width:92.5%;
+    height: 99.5%;
+    top: 0;
+    bottom: 0;
+    left: 110px;
+    right: 0;
+    text-align: center;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: background-color 0.4s ease-in-out;
+}
+
+
+.projectThumb__info > * {
+    position: absolute;
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.project-title {
+    color: #ffffff;
+    opacity: 0;
+    font-size: 30px;
+    -webkit-transform: translate3d(0, 24px, 0) scaleY(0);
+    transform: translate3d(0, 24px, 0) scaleY(0);
+    transition: all 0.4s linear;
+}
+
+
+.slides {
+   position: absolute;
+   top: 0;
+   width: 980px;
+   opacity: 0;
+   transition: opacity 1s ease-in-out;
+}
+
+
+
+@-webkit-keyframes fadeUpShort {
+    0% {
+        -webkit-transform: translate3d(0, 24px, 0);
+        transform: translate3d(0, 24px, 0);
+        opacity: 0
+    }
+
+    100% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        opacity: 0.5
+    }
+}
+
+
+.projectThumb:hover .projectThumb__info {
+    background: rgba(0,0,0,0.3)
+}
+
+.projectThumb:hover .project-title {
+    color: #ffffff;
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scaleY(1);
+}
+
+
+
+/*profilepage*/
+
+#profilephoto {
+	max-width:80%;
+	position: relative;
+	left:110px;
+}
+
+
+/*profile page interoduction*/
+#selfintro{
+ 	max-width:80%;
+ 	float:right;
+ 	font-size: 20px;
+	position: absolute;
+	right:200px;
+	top:350px;
+	position:center;
+	text-align:left;
+	margin-top: 8px;
+	margin-right:0px;
+}
+
+
+/*footer*/
+footer{
+	padding-left: 110px;
+	background-color: white;
+	color:grey;
+	margin:0px;
+}
+
+
+.contacts{
+	float: left;
+	position:relative;
+	top:-70px;
+	left:1050px;
+	margin: 8px;
+	text-decoration: none;
+	color:grey;
+}
+
+#top{
+	float: right;
+	position: relative;
+	top:-10px;
+	right:20px;
+	/*margin: 10px;*/
+}
+
+div #top:hover{
+	color: grey;
+	text-align: center;
+	transform:scale(1.5);
+	transform-style: ease;
+	transition-duration: 1s;
+}
+/*footer end*/

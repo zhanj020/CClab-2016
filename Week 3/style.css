@@ -1,0 +1,42 @@
+
+
+body{
+	font-family: 'Ubuntu Condensed', sans-serif;
+	margin-top: 0px;
+
+}
+
+/*header*/
+a{
+	text-decoration: none;
+	color:grey;
+}
+
+h2{
+	color: grey;
+}
+
+#logo{
+	position:relative;
+	bottom:20px;
+	right:8px;
+}
+
+
+#learnmore {
+	color:#fff;
+	font-size:24px;
+	background: #A3C2CE;
+	border-radius: 10px;
+	border:0;
+	display:inline-block;
+	padding:5px 10px;
+	cursor:pointer;
+}
+#learnmore:hover {
+	color:#A3C2CE;
+	background:#fff;
+	transform:scale(1.1);
+	transform-style: ease;
+	transition-duration: 1s;
+}

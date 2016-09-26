@@ -1,0 +1,56 @@
+
+.over {
+    transform: rotate( -90deg );            
+    transition: transform 300ms ease-in;
+}
+
+
+.circle{
+	position: absolute;
+	left:50%;
+	top: 50%;
+}
+
+#cir1 {
+    background: #4897D8;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#cir2 {
+    background: #FFDB5C;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#cir3 {
+    background: #FA6E59;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#sd1 {
+    background: #C1E1DC;
+    width: 150px;
+    height: 150px;
+    float: right;
+    border-radius: 50%;
+    
+}
+
+#sd2 {
+    background: #FFEB94;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#sd3 {
+    background: #FFCCAC;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
