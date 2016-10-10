@@ -4,6 +4,7 @@
 * Crated by Dejan Nedelkovski,
 * www.HowToMechatronics.com
 *
+* Modified by Jialu Zhang  
 */
 // defines pins numbers
 const int trigPin = 9;
@@ -15,8 +16,8 @@ const int ledPin=7;
 void setup() {
   
 pinMode(trigPin, OUTPUT); // Sets the trigPin as an Output
-pinMode(echoPin, INPUT); 
-pinMode(ledPin,OUTPUT);// Sets the echoPin as an Input
+pinMode(echoPin, INPUT); // Sets the echoPin as an Input
+pinMode(ledPin,OUTPUT);
 Serial.begin(9600); 
 // Starts the serial communication
 }
