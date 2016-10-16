@@ -12,7 +12,7 @@ const int echoPin = 10;
 // defines variables
 long duration;
 int distance;
-const int ledPin=7;
+const int ledPin=A0;
 void setup() {
   
 pinMode(trigPin, OUTPUT); // Sets the trigPin as an Output
@@ -34,14 +34,12 @@ digitalWrite(trigPin, LOW);
 duration = pulseIn(echoPin, HIGH);
 // Calculating the distance
 distance= duration*0.034/2;
-if(distance<20){
-  digitalWrite(ledPin,HIGH);
-  delay(50);
-  Serial.println("it is working");
-}else {
-  digitalWrite(ledPin,LOW);
-}
+int ledState=map(distance,0,100,0,255);
+Serial.println(ledState);
+
+  analogWrite(ledPin,ledState);
+
+
 // Prints the distance on the Serial Monitor
-Serial.print("Distance: ");
-Serial.println(distance);
+
 }
