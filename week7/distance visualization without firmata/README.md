@@ -7,4 +7,4 @@ Arduino: use ultrasonic sensor to measure the distance
 Processing: visualize the distance 
 
 
-Click here to watch the video
+Click [here](https://www.youtube.com/watch?v=OEuo61zlU5g) to watch the video
