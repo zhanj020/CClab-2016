@@ -20,7 +20,7 @@ void setup() {
   myPort = new Serial(this, Serial.list()[0], 9600);
   mov = new Movie(this, "1.mp4");
   mov1= new Movie(this, "3.mp4");
-  mov1= new Movie(this, "4.mp4");
+  mov2= new Movie(this, "4.mp4");
   size(1280 , 720);
   bg = loadImage("wallpaper.jpg");
   font = createFont("HennyPenny-Regular.otf", 20);
@@ -91,6 +91,7 @@ void draw() {
   else{
     mov.stop();
     mov1.stop();
+    mov2.stop();
     backgroundDraw();
   }
 }
