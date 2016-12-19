@@ -1,5 +1,5 @@
 
-# Ultrasonic Sensor Test #
+# Week 6 HW: Ultrasonic Sensor Test #
 
 video link [https://youtu.be/WF0-k6rGzfk](https://youtu.be/WF0-k6rGzfk)
 
